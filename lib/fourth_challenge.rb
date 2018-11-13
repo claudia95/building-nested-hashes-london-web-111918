@@ -20,8 +20,12 @@ def fourth_challenge
         attitude: "worried"
         
       },
-         {name: "Steven", age: "30", attitude: "confused"}]
-   },
+      {
+        name: "Mercutio", 
+        age: "18", 
+        attitude: "hot-headed"
+        
+      },
    :capulet => {
       :patriarch => {
         name: "Lord Capulet", 
@@ -37,14 +41,14 @@ def fourth_challenge
         status: "alive"
       },
       :heroine_friends => [{
-        :name: "Steven",
-        :age: "30",
-        :attitude: "confused"
+        name: "Steven",
+        age: "30",
+        attitude: "confused"
       },
       {
-        :name: "Nurse",
-        :age: "44",
-        :attitude: "worried"
+        name: "Nurse",
+        age: "44",
+        attitude: "worried"
       }]
    }
 }
